@@ -74,7 +74,7 @@ function AccordionItem({ item }: { item: any }) {
   return (
     <Accordion.Item value={item.value} className="border-b border-gray-800 last:border-b-0 overflow-hidden">
       <Accordion.Header className="flex">
-        <Accordion.Trigger className="group flex flex-1 items-center justify-between py-6 text-xl md:text-3xl font-display font-medium text-white transition-all hover:text-primary [&[data-state=open]]:text-white [&[data-state=open]>div]:bg-[#D9D9D9] [&[data-state=open]>div]:text-dark">
+        <Accordion.Trigger className="group flex flex-1 items-center justify-between py-8 text-2xl md:text-4xl font-display font-medium text-white transition-all hover:text-primary [&[data-state=open]]:text-white [&[data-state=open]>div]:bg-[#D9D9D9] [&[data-state=open]>div]:text-dark">
           {item.title}
           {/* Custom icon area */}
           <div className="relative w-8 h-8 flex items-center justify-center rounded-full text-white group-hover:text-primary transition-colors duration-300">
@@ -84,15 +84,15 @@ function AccordionItem({ item }: { item: any }) {
         </Accordion.Trigger>
       </Accordion.Header>
       <Accordion.Content className="overflow-hidden text-gray-400 data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down">
-        <div className="pb-8 pt-2 pl-4">
+        <div className="pb-10 pt-2 pl-4">
           {item.isList ? (
-            <ul className="space-y-3 list-disc list-inside">
+            <ul className="space-y-4 list-disc list-inside">
                {item.content.map((listItem: string, i: number) => (
-                 <li key={i} className="text-lg">{listItem}</li>
+                 <li key={i} className="text-base md:text-lg leading-relaxed">{listItem}</li>
                ))}
             </ul>
           ) : (
-            <p className="text-lg leading-relaxed">{item.content}</p>
+            <p className="text-base md:text-lg leading-relaxed">{item.content}</p>
           )}
         </div>
       </Accordion.Content>

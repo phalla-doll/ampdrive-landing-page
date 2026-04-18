@@ -41,7 +41,7 @@ export default function ProcessSection() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 md:gap-24">
         
         <div className="md:w-1/3">
-           <h2 className="text-4xl md:text-5xl font-display font-medium tracking-tight leading-[1.1] sticky top-24">
+           <h2 className="text-4xl md:text-[3.5rem] font-display font-medium tracking-tight leading-[1.05] sticky top-24 pr-8 max-w-sm">
              Your Business Is At The Center Of Our Process
            </h2>
         </div>
@@ -52,12 +52,12 @@ export default function ProcessSection() {
               key={step.num} 
               className={`flex flex-col sm:flex-row rounded-3xl p-8 sm:p-12 items-start sm:items-center gap-8 sm:gap-16 ${step.color} ${step.textColor} transition-transform duration-500 hover:scale-[1.02]`}
             >
-              <div className="text-7xl md:text-8xl font-display font-medium tracking-tighter opacity-80 mix-blend-multiply">
+              <div className="text-7xl md:text-[7rem] leading-none font-display font-medium tracking-tighter opacity-80 mix-blend-multiply">
                 {step.num}
               </div>
-              <div className="flex flex-col gap-2 flex-1">
-                <h3 className="text-2xl font-display font-semibold border-b border-black/10 pb-4 mb-2">{step.title}</h3>
-                <p className="text-sm font-medium opacity-80 leading-relaxed max-w-md">
+              <div className="flex flex-col gap-3 flex-1">
+                <h3 className="text-3xl font-display font-medium border-b border-black/10 pb-5">{step.title}</h3>
+                <p className="text-base text-black/70 leading-relaxed max-w-md pt-1">
                   {step.desc}
                 </p>
               </div>

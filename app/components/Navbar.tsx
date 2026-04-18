@@ -5,10 +5,10 @@ import { Menu } from 'lucide-react';
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between py-6 px-6 md:px-12 w-full max-w-7xl mx-auto font-display">
-      <div className="flex items-center gap-2">
-        <div className="w-4 h-4 bg-primary rotate-45" />
-        <span className="text-xl font-bold tracking-wide uppercase">Ampdrive</span>
+    <nav className="flex items-center justify-between py-8 md:py-10 px-6 md:px-12 w-full max-w-7xl mx-auto font-display">
+      <div className="flex items-center gap-3">
+        <div className="w-5 h-5 bg-primary rotate-45" />
+        <span className="text-xl font-medium tracking-widest uppercase text-white">Ampdrive</span>
       </div>
       
       <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">

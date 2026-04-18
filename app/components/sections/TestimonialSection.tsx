@@ -7,7 +7,7 @@ export default function TestimonialSection() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 border-b border-gray-200 pb-24">
         
         <div className="md:w-1/4">
-          <p className="text-xs font-bold uppercase tracking-widest text-gray-400">
+          <p className="text-xs font-medium uppercase tracking-widest text-gray-400">
             DISCOVER WHY OUR CLIENTS RAVE ABOUT OUR DELIVERABLES & REPORTING
           </p>
         </div>
@@ -15,19 +15,19 @@ export default function TestimonialSection() {
         <div className="md:w-3/4 flex flex-col gap-8">
           <div className="flex gap-4">
             <span className="text-5xl font-display font-medium text-dark leading-none -mt-2">&quot;</span>
-            <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight leading-[1.2] max-w-4xl text-balance">
+            <h2 className="text-3xl md:text-4xl font-display font-medium tracking-tight leading-[1.25] max-w-4xl text-balance">
               Emphasizes The Supplier&apos;s Dedication To Helping Their Clients Gain Valuable Knowledge And Insights, Which Is A Highly Desirable Trait In A Business Partner.
             </h2>
           </div>
 
-          <div className="flex items-center justify-between ml-10">
+          <div className="flex items-center justify-between md:ml-10 mt-4">
             <div className="flex items-center gap-4">
-               <div className="w-12 h-12 rounded-full overflow-hidden relative">
+               <div className="w-14 h-14 rounded-full overflow-hidden relative">
                  <Image src="https://picsum.photos/seed/portrait/100/100" alt="Sarah Smith" fill className="object-cover" referrerPolicy="no-referrer" />
                </div>
                <div>
-                  <p className="font-semibold text-lg leading-tight">Sarah Smith</p>
-                  <p className="text-sm text-gray-500">Lead Consultant</p>
+                  <p className="font-medium text-lg leading-tight">Sarah Smith</p>
+                  <p className="text-base text-gray-500 pt-1">Lead Consultant</p>
                </div>
             </div>
 

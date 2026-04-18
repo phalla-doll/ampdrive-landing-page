@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@200,400,500,600,700&f[]=satoshi@300,400,500,700,900&display=swap');
+
+@theme {
+  --font-sans: 'Satoshi', sans-serif;
+  --font-display: 'Clash Display', sans-serif;
+  
+  --color-primary: #CEF040;
+  --color-primary-light: #E3F882;
+  --color-dark: #070908;
+  --color-dark-surface: #0E1311;
+  --color-dark-border: #232C27;
+  
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+}
+
+@keyframes accordion-down {
+  from { height: 0; }
+  to { height: var(--radix-accordion-content-height); }
+}
+
+@keyframes accordion-up {
+  from { height: var(--radix-accordion-content-height); }
+  to { height: 0; }
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-dark);
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Custom glow effect */
+.glow-primary {
+  box-shadow: 0 0 80px 20px rgba(206, 240, 64, 0.15);
+}

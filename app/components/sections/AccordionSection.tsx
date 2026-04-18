@@ -55,7 +55,7 @@ export default function AccordionSection() {
       {/* Large Image Full Width at bottom of dark section */}
       <div className="w-full h-[400px] md:h-[600px] bg-dark-surface rounded-3xl overflow-hidden relative">
         <Image 
-          src="https://images.unsplash.com/photo-1612803875503-4c91d4e4ac15?q=80&w=1200&auto=format&fit=crop" 
+          src="https://images.unsplash.com/photo-1617704548623-340376564e68?q=80&w=1200&auto=format&fit=crop" 
           alt="Person with Electric Car" 
           fill 
           className="object-cover"

@@ -19,7 +19,7 @@ export default function HeroSection() {
       <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-[600px] md:h-[500px]">
         {/* Box 1: Small dark box */}
         <div className="col-span-1 row-span-1 rounded-3xl overflow-hidden relative group">
-           <Image src="https://images.unsplash.com/photo-1600861194942-fbbc1aa6824a?q=80&w=400&auto=format&fit=crop" alt="EV Charging Station" fill className="object-cover transition-transform duration-700 group-hover:scale-105" referrerPolicy="no-referrer" />
+           <Image src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?q=80&w=400&auto=format&fit=crop" alt="EV Charging Station" fill className="object-cover transition-transform duration-700 group-hover:scale-105" referrerPolicy="no-referrer" />
            <div className="absolute inset-0 bg-dark/20 mix-blend-multiply" />
         </div>
 

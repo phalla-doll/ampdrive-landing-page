@@ -12,7 +12,7 @@ export default function ElectricPurposeSection() {
            <div className="grid grid-cols-2 md:grid-cols-4 md:grid-rows-2 gap-4 h-[500px] w-full">
               
               <div className="col-span-2 row-span-2 rounded-3xl overflow-hidden relative">
-                 <Image src="https://picsum.photos/seed/evcharger/600/500" alt="EV Charger" fill className="object-cover" referrerPolicy="no-referrer" />
+                 <Image src="https://images.unsplash.com/photo-1620804433722-19e48f804505?q=80&w=600&auto=format&fit=crop" alt="EV Charger" fill className="object-cover" referrerPolicy="no-referrer" />
               </div>
 
                <div className="col-span-1 row-span-1 bg-primary rounded-3xl overflow-hidden relative p-6 flex flex-col justify-end text-dark">
@@ -24,16 +24,16 @@ export default function ElectricPurposeSection() {
                
                <div className="col-span-1 row-span-1 border border-gray-300 rounded-3xl overflow-hidden relative p-8 flex flex-col justify-end">
                   {/* Small line map placeholder */}
-                  <Image src="https://picsum.photos/seed/map/400/400" alt="Map graphic" fill className="object-cover opacity-20 grayscale mix-blend-multiply" referrerPolicy="no-referrer" />
+                  <Image src="https://images.unsplash.com/photo-1524661135-423595f22d0b?q=80&w=400&auto=format&fit=crop" alt="Map graphic" fill className="object-cover opacity-20 grayscale mix-blend-multiply" referrerPolicy="no-referrer" />
                   <h3 className="font-display font-medium text-xl leading-[1.1] relative z-10 text-right">Charging<br/>Solutions</h3>
                </div>
 
                <div className="col-span-1 bg-gray-200 rounded-3xl overflow-hidden relative">
-                  <Image src="https://picsum.photos/seed/evdashboard/300/300" alt="Dashboard" fill className="object-cover" referrerPolicy="no-referrer" />
+                  <Image src="https://images.unsplash.com/photo-1583121280346-59edc8c445ee?q=80&w=300&auto=format&fit=crop" alt="Dashboard" fill className="object-cover" referrerPolicy="no-referrer" />
                </div>
                
                <div className="col-span-1 bg-gray-200 rounded-3xl overflow-hidden relative">
-                   <Image src="https://picsum.photos/seed/evwheel/300/300" alt="Wheel" fill className="object-cover" referrerPolicy="no-referrer" />
+                   <Image src="https://images.unsplash.com/photo-1548671542-a8c9b3a0c497?q=80&w=300&auto=format&fit=crop" alt="Wheel" fill className="object-cover" referrerPolicy="no-referrer" />
                </div>
            </div>
         </div>

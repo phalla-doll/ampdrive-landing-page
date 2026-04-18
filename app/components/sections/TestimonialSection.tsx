@@ -23,7 +23,7 @@ export default function TestimonialSection() {
           <div className="flex items-center justify-between md:ml-10 mt-4">
             <div className="flex items-center gap-4">
                <div className="w-14 h-14 rounded-full overflow-hidden relative">
-                 <Image src="https://picsum.photos/seed/portrait/100/100" alt="Sarah Smith" fill className="object-cover" referrerPolicy="no-referrer" />
+                 <Image src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop" alt="Sarah Smith" fill className="object-cover" referrerPolicy="no-referrer" />
                </div>
                <div>
                   <p className="font-medium text-lg leading-tight">Sarah Smith</p>
